@@ -32,7 +32,7 @@
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
 			<event>
-								<text load="CE_PRE_FIGHT_ION_TEXT"/>
+				<text load="CE_PRE_FIGHT_ION_TEXT"/>
 				<status type="loss" target="enemy" system="shields" amount="2"/>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -94,7 +94,7 @@
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
 			<event>
-								<text load="CE_PRE_FIGHT_ION_TEXT"/>
+				<text load="CE_PRE_FIGHT_ION_TEXT"/>
 				<status type="loss" target="enemy" system="shields" amount="2"/>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -138,7 +138,7 @@
 	<text>The ship computer informs the crew: "Threat level 2 hostile approaching. Armed engagement imminent."</text>
 	<text>The ship computer reassures the crew: "Simulations show good success chances for this engagement. Remain calm and do your job."</text>
 	<text>Red lights flicker on your console. The enemy is rated threat level 3.</text>
-	<text>You calmly sit down in the captains chair and give the final order: "Engage!"</text>
+	<text>You calmly sit down in the captain's chair and give the final order: "Engage!"</text>
 	<text>Sirens glare on board the ship. Battle stations!</text>
 	<text>Combat is imminent. You get to your console and sound the red alert.</text>
 	<text>The crew runs for their stations.</text>
@@ -150,11 +150,11 @@
 	<text>Your crew reports: "We are moving in hot."</text>
 </textList>
 <textList name="CE_PRE_FIGHT_ION_TEXT">
-	<text>The enemy shields flicker and on of their protective layers collapses. This should soften them up a bit.</text>
-	<text>The enemy shields start to crackle, electric discharges everywhere. Seems the Ion field works well.</text>
-	<text>Lightening flashes from the enemy shields. One of their shield bubbles collapses and stays down.</text>
+	<text>The enemy shields flicker and one of their protective layers collapses. This should soften them up a bit.</text>
+	<text>The enemy shields start to crackle, electric discharges flickering all over them. It seems the ion field works well.</text>
+	<text>Lightning flashes from the enemy shields. One of their shield layers collapses and stays down.</text>
 	<text>The ion field depletes one of the enemy shield bubbles.</text>
-	<text>You augment once again disrupts an opponents shields.</text>
+	<text>Your augment disrupts the opponent's shields.</text> <!-- 'once again' would imply that we already disrupted this particular enemy's shield system... -->
 	<text>You crew reports: "Good effect on target captain. Enemy defenses weakened."</text>
 	<text>"Their shields are collapsing captain." You move in to engage.</text>
 	<text>That should soften them up a bit.</text>
@@ -163,12 +163,12 @@
 <textList name="CE_PRE_FIGHT_TELEPORTER_TEXT">
 	<text>A reassuring green light on your console tells you that the teleporter disruptor is online. The enemies will have difficulties boarding you.</text>
 	<text>A graphic on the vidscreen illustrates how the disruption field unfolds. The enemy teleporter signals are scrambled.</text>
-	<text>"Disrupter field stable, captain. That should keep them away." You move in to attack.</text>
+	<text>"Disruptor field stable, captain. That should keep them away." You move in to attack.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_BIOWEAPON_TEXT">
 	<text>"Captain?" Your crew awaits verification of the order. You push your concerns aside and order the activation of the bio weapon. The enemy crew will suffer greatly, unless their life support system is quite advanced.</text>
 	<text>"Eh... right, targeting radiation projector..." Your crew seems to be quite disturbed by the excessive use of this weapon.</text>
-	<text>Your first mate sights. "Radiation projector deployed, captain. Good effect on target."</text>
+	<text>Your first mate sighs. "Radiation projector deployed, captain. Good effect on target."</text>
 	<text>Your first mate nods silently. Your augment begins to irradiate the enemy vessel.</text>
 </textList>
 
@@ -201,7 +201,7 @@
 				<choice hidden="true">
 					<text>Shields.</text>
 					<event>
-						<text>You effector manages to disable one of the enemy shield projectors. This should weaken their defenses.</text>
+						<text>Your effector manages to disable one of the enemy shield projectors. This should weaken their defenses.</text>
 						<status type="loss" target="enemy" system="shields" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -216,7 +216,7 @@
 				<choice hidden="true">
 					<text>Engines.</text>
 					<event>
-						<text>The hacking attempt disables the primary thrusters of the enemy craft.</text>
+						<text>"Hacking attempt successful. Primary thrusters of the enemy craft are disabled."</text>
 						<status type="divide" target="enemy" system="engines" amount="2"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -250,7 +250,7 @@
 						<choice hidden="true">
 							<text>Teleporter.</text>
 							<event>
-								<text>Your effector unit infects the enemy teleporter targeting. It will be harder for your opponent to get a teleporter lock on your ship.</text>
+								<text>Your effector unit scrambles the enemy teleporter targeting. It will be harder for your opponent to get a teleporter lock on your ship.</text>
 								<status type="loss" target="enemy" system="teleporter" amount="1"/>
 								<choice hidden="true"> 
 									<text>Continue...</text>
@@ -280,8 +280,8 @@
 						<choice hidden="true">
 							<text>Door System.</text>
 							<event>
-								<text>The enemy security system is breached. Fires could spread easily and a boarding party could access the entire enemy ship.</text>
-								<status type="limit" target="enemy" system="doors" amount="0"/>
+								<text>The enemy security system is breached. Fires will spread easily and a boarding party will have complete access to the entire enemy ship.</text>
+								<status type="limit" target="enemy" system="doors" amount="0"/> <!-- amount=0 ? -->
 								<choice hidden="true"> 
 									<text>Continue...</text>
 									<event/>
@@ -295,7 +295,7 @@
 						<choice hidden="true">
 							<text>Life support.</text>
 							<event>
-								<text>The hacking routines disable parts the enemy oxygen distribution.</text>
+								<text>The hacking routines disable the enemy oxygen distribution system.</text>
 								<status type="loss" target="enemy" system="oxygen" amount="1"/>
 								<choice hidden="true"> 
 									<text>Continue...</text>
@@ -314,7 +314,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_1">
 					<event>
-												<text>The enemy weapon system is disrupted and they lose some system power.</text>
+						<text>The enemy weapon system is disrupted and they lose some system power.</text>
 						<status type="loss" target="enemy" system="weapons" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -326,7 +326,7 @@
 						</choice>
 					</event>
 					<event>
-												<text>The enemy firewalls proof to advanced for your hacking device.</text>
+						<text>The enemy firewalls proved to be too advanced for your hacking device.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
@@ -340,7 +340,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2">
 					<event>
-												<text>The enemy weapon system is disrupted and they lose some system power.</text>
+						<text>The enemy weapon system is disrupted and they lose some system power.</text>
 						<status type="loss" target="enemy" system="weapons" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -348,7 +348,7 @@
 						</choice>
 					</event>
 					<event>
-												<text>The enemy firewalls proof to advanced for your hacking device.</text>
+						<text>The enemy firewalls proevd to be too advanced for your hacking device.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
@@ -359,7 +359,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_DRONES_1">
 					<event>
-						<text>The hacking attempt succeeds. The enemy drone control looses system power.</text>
+						<text>The hacking attempt has been successful. The enemy drone control loses system power.</text>
 						<status type="loss" target="enemy" system="drones" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -385,7 +385,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_DRONES_2">
 					<event>
-						<text>The hacking attempt succeeds. The enemy drone control looses system power.</text>
+						<text>The hacking attempt has been successful. The enemy drone control loses system power.</text>
 						<status type="loss" target="enemy" system="drones" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -470,7 +470,7 @@
 
 <eventList name="CE_WEAPON_JAMMING_RESULTS_1">
 	<event>
-		<text>The enemy weapon targeting system must be quite outdated: Your jammer proves extremely effective.</text>
+		<text>The enemy weapon targeting system must be quite outdated: your jammer proves extremely effective.</text>
 		<status type="divide" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -506,7 +506,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your jammer does his thing and the enemy weapons are partially scrambled.</text>
+		<text>Your jammer does its thing and the enemy weapons are partially scrambled.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -518,7 +518,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your opponent surely didnt expect this. His weapon targeting fails, making some of his advanced armaments useless.</text>
+		<text>Your opponent surely didn't expect this. Their weapon targeting fails, making some of their advanced armaments useless.</text> <!-- "their" can be used as singular, gender-neutral possessive pronoun -->
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -530,7 +530,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The jammer succeeds in jamming parts of the enemies arsenal.</text>
+		<text>The jammer succeeds in jamming parts of the enemy's arsenal.</text> <!-- "enemies" - plural of "enemy", "enemy's" - belonging to the enemy, "enemies' " - belonging to the enemies -->
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -542,7 +542,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. Good effect on target."</text>
+		<text>Your crew reports: "Jammers active, sir. Good effect on target."</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -554,7 +554,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. But the enemy seems to be equipped with very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
+		<text>Your crew reports: "Jammers are active, sir, but the enemy seems to be equipped with very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
 		<choice hidden="true"> 
 			<text>Continue...</text>
 			<event/>
@@ -565,7 +565,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your jamming augments seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with full fire from his weapon array.</text>
+		<text>Your jamming augments seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with full fire from their weapon array.</text>
 		<choice hidden="true"> 
 			<text>Continue...</text>
 			<event/>
@@ -590,7 +590,7 @@
 
 <eventList name="CE_DRONE_JAMMING_RESULTS_1">
 	<event>
-		<text>The enemy drones status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
+		<text>The enemy drone's status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -602,43 +602,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
-		<choice req="AE_AUG_GENERATOR" hidden="true"> 
-			<text>(Internal Generator) Power up another combat augment.</text>
-			<event load="CE_PRE_FIGHT_NO_DRONE_JAMMER"/>
-		</choice>
-	</event>
-	<event>
-		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
-		<choice req="AE_AUG_GENERATOR" hidden="true"> 
-			<text>(Internal Generator) Power up another combat augment.</text>
-			<event load="CE_PRE_FIGHT_NO_DRONE_JAMMER"/>
-		</choice>
-	</event>
-	<event>
-		<text>The enemy drones status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
-		<choice req="AE_AUG_GENERATOR" hidden="true"> 
-			<text>(Internal Generator) Power up another combat augment.</text>
-			<event load="CE_PRE_FIGHT_NO_DRONE_JAMMER"/>
-		</choice>
-	</event>
-	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
+		<text>Your crew reports: "Drone uplink disrupted, captain."</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -662,7 +626,8 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew tries to scramble all channels, but the enemy uses rotating frequencies and remains in control of it's drones.</text>
+		<text>The enemy drone's status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
+		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -673,7 +638,42 @@
 		</choice>
 	</event>
 	<event>
-		<text>The enemy ship must use advanced channel encryption. The jammer fails to identify the enemy drones frequencies and can not disrupt the uplink.</text>
+		<text>Your crew reports: "Drone uplink disrupted, captain."</text>
+		<status type="loss" target="enemy" system="drones" amount="3"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_AUG_GENERATOR" hidden="true"> 
+			<text>(Internal Generator) Power up another combat augment.</text>
+			<event load="CE_PRE_FIGHT_NO_DRONE_JAMMER"/>
+		</choice>
+	</event>
+	<event>
+		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<status type="loss" target="enemy" system="drones" amount="3"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_AUG_GENERATOR" hidden="true"> 
+			<text>(Internal Generator) Power up another combat augment.</text>
+			<event load="CE_PRE_FIGHT_NO_DRONE_JAMMER"/>
+		</choice>
+	</event>
+	<event>
+		<text>Your crew tries to scramble all channels, but the enemy uses variable frequencies and remains in control of it's drones.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_AUG_GENERATOR" hidden="true"> 
+			<text>(Internal Generator) Power up another combat augment.</text>
+			<event load="CE_PRE_FIGHT_NO_DRONE_JAMMER"/>
+		</choice>
+	</event>
+	<event>
+		<text>The enemy ship must be using an advanced channel encryption. The jammer fails to identify the enemy drones' frequencies and can not disrupt the uplink.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -684,6 +684,8 @@
 		</choice>
 	</event>
 </eventList>
+
+<!-- @kartoFlane - finished checking here -->
 
 <eventList name="CE_PRE_FIGHT_NO_EFFECTOR">
 	<event>
