@@ -1,5 +1,4 @@
 
-
 <!-- CE MODIFIED VANILLA BLUEPRINTS -->
 
 
@@ -337,7 +336,7 @@
 
 <augBlueprint name="AE_ADV_THRUSTERS">
 	<title>Adv. Prox. Navigation</title>
-	<desc>Smart proximity navigation AI that helps avoiding hazardous situation outside of combat.</desc>
+	<desc>Smart proximity navigation AI that helps to avoid hazardous situations outside of combat.</desc>
 	<cost>10</cost>
 	<bp>5</bp>
 	<rarity>1</rarity>
@@ -373,7 +372,7 @@
 
 <augBlueprint name="AE_REPAIR_KIT">
 	<title>Hull Repair Kit</title>
-	<desc>Enables en rout ship maintenance and hull repairs. Requires an empty beacon.</desc>
+	<desc>Enables en route ship maintenance and hull repairs. Requires an empty beacon.</desc>
 	<cost>60</cost>
 	<bp>5</bp>
 	<rarity>2</rarity>
@@ -408,7 +407,7 @@
 </augBlueprint>
 
 <crewBlueprint name="ghost">
-	<desc>This self sustained, partly holographic AI-Avatar is fully sentient and very smart, but also quite fragile. It can execute any crew task.</desc>
+	<desc>This self-sustained, partly holographic AI-Avatar is fully sentient and very smart, but also quite fragile. It can fulfill any crew tasks.</desc>
 	<cost>30</cost>
 	<bp>1</bp>
 	<title>AI Avatar</title>
@@ -422,7 +421,7 @@
 
 <augBlueprint name="AE_ADV_COM"> 
 	<title>Long Range Coms</title>
-	<desc>Lets you contact people far away. Requires an empty beacon</desc>
+	<desc>Allows you to contact people from afar. Requires an empty beacon</desc>
 	<cost>30</cost>
 	<bp>5</bp>
 	<rarity>0</rarity>
@@ -431,7 +430,7 @@
 
 <augBlueprint name="AE_WEAPON_JAMMER">   <!-- 20% fail -->
 	<title>Targeting Jammer</title>
-	<desc>Attempts to scrambles the enemy weapon targeting, disabling one to two weapons. Combat augment.</desc>
+	<desc>A jammer that attempts to scramble enemy weapon targeting, disabling one to two weapons. Combat augment.</desc>
 	<cost>100</cost>
 	<bp>5</bp>
 	<rarity>5</rarity>
@@ -440,7 +439,7 @@
 
 <augBlueprint name="AE_DRONE_JAMMER">    <!-- 20% fail -->
 	<title>Drone Uplink Jammer</title>
-	<desc>Attempts to scrambles the enemy drone communication, disabling one to two drones. Combat augment.</desc>
+	<desc>A jammer that attempts to scramble enemy drone communication, disabling one to two drones. Combat augment.</desc>
 	<cost>60</cost>
 	<bp>5</bp>
 	<rarity>4</rarity>
@@ -458,7 +457,7 @@
 
 <augBlueprint name="AE_SHIELD_JAMMER">   <!-- 0% fail -->
 	<title>Ion Field</title>
-	<desc>Disrupts the enemy shield system and permanently depletes one shield bubble. Combat augment.</desc>
+	<desc>Disrupts the enemy shield system and permanently depletes one shield layer. Combat augment.</desc>
 	<cost>120</cost>
 	<bp>5</bp>
 	<rarity>5</rarity>
@@ -467,7 +466,7 @@
 
 <augBlueprint name="AE_IRRADIATOR">   <!-- 0% fail -->
 	<title>Radiation Projector</title>
-	<desc>Constantly irradiates the enemy ship, polluting it's oxygen and after some time killing the crew. Ineffective against advanced life support systems. Combat augment.</desc>
+	<desc>Continuously irradiates the enemy ship, polluting it's oxygen supply, and slowly killing the crew. Ineffective against advanced life support systems. Combat augment.</desc>
 	<cost>60</cost>
 	<bp>5</bp>
 	<rarity>4</rarity>
@@ -476,7 +475,7 @@
 
 <augBlueprint name="AE_ADV_EFFECTOR">   <!-- 10% fail -->
 	<title>Internal Effector</title>
-	<desc>Hacks into the enemy ships computer and disrupts a system of your choice. Combat augment.</desc>
+	<desc>A virus that hacks into the enemy ship's computer and disrupts a system of your choice. Combat augment.</desc>
 	<cost>100</cost>
 	<bp>5</bp>
 	<rarity>5</rarity>
