@@ -32,7 +32,7 @@
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
 			<event>
-				<text load="CE_PRE_FIGHT_ION_TEXT"/>
+					<text load="CE_PRE_FIGHT_ION_TEXT"/>
 				<status type="loss" target="enemy" system="shields" amount="2"/>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -94,7 +94,7 @@
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
 			<event>
-				<text load="CE_PRE_FIGHT_ION_TEXT"/>
+					<text load="CE_PRE_FIGHT_ION_TEXT"/>
 				<status type="loss" target="enemy" system="shields" amount="2"/>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -314,7 +314,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_1">
 					<event>
-						<text>The enemy weapon system is disrupted and they lose some system power.</text>
+							<text>The enemy weapon system is disrupted and they lose some system power.</text>
 						<status type="loss" target="enemy" system="weapons" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -326,7 +326,7 @@
 						</choice>
 					</event>
 					<event>
-						<text>The enemy firewalls proved to be too advanced for your hacking device.</text>
+							<text>The enemy firewalls proved to be too advanced for your hacking device.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
@@ -340,7 +340,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2">
 					<event>
-						<text>The enemy weapon system is disrupted and they lose some system power.</text>
+							<text>The enemy weapon system is disrupted and they lose some system power.</text>
 						<status type="loss" target="enemy" system="weapons" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -348,7 +348,7 @@
 						</choice>
 					</event>
 					<event>
-						<text>The enemy firewalls proevd to be too advanced for your hacking device.</text>
+							<text>The enemy firewalls proevd to be too advanced for your hacking device.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
