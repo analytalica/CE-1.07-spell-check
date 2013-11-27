@@ -1,4 +1,3 @@
-
 <!-- CE MODIFIED VANILLA BLUEPRINTS -->
 
 
@@ -475,7 +474,7 @@
 
 <augBlueprint name="AE_ADV_EFFECTOR">   <!-- 10% fail -->
 	<title>Internal Effector</title>
-	<desc>A virus that hacks into the enemy ship's computer and disrupts a system of your choice. Combat augment.</desc>
+	<desc>A device that hacks into the enemy ship's computer and disrupts a system of your choice. Combat augment.</desc>
 	<cost>100</cost>
 	<bp>5</bp>
 	<rarity>5</rarity>
