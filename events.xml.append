@@ -32,7 +32,7 @@
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
 			<event>
-					<text load="CE_PRE_FIGHT_ION_TEXT"/>
+								<text load="CE_PRE_FIGHT_ION_TEXT"/>
 				<status type="loss" target="enemy" system="shields" amount="2"/>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -94,7 +94,7 @@
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
 			<event>
-					<text load="CE_PRE_FIGHT_ION_TEXT"/>
+								<text load="CE_PRE_FIGHT_ION_TEXT"/>
 				<status type="loss" target="enemy" system="shields" amount="2"/>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -154,9 +154,9 @@
 	<text>The enemy shields start to crackle, electric discharges flickering all over them. It seems the ion field works well.</text>
 	<text>Lightning flashes from the enemy shields. One of their shield layers collapses and stays down.</text>
 	<text>The ion field depletes one of the enemy shield bubbles.</text>
-	<text>Your augment disrupts the opponent's shields.</text> <!-- 'once again' would imply that we already disrupted this particular enemy's shield system... -->
-	<text>You crew reports: "Good effect on target captain. Enemy defenses weakened."</text>
-	<text>"Their shields are collapsing captain." You move in to engage.</text>
+	<text>Your augment once again disrupts the opponent's shields.</text>
+	<text>You crew reports: "Good effect on target, captain. Enemy defenses weakened."</text>
+	<text>"Their shields are collapsing, captain." You move in to engage.</text>
 	<text>That should soften them up a bit.</text>
 	<text>The field projector has trouble keeping a lock on the enemy, but after a while their defenses are going down.</text>
 </textList>
@@ -281,7 +281,7 @@
 							<text>Door System.</text>
 							<event>
 								<text>The enemy security system is breached. Fires will spread easily and a boarding party will have complete access to the entire enemy ship.</text>
-								<status type="limit" target="enemy" system="doors" amount="0"/> <!-- amount=0 ? -->
+								<status type="limit" target="enemy" system="doors" amount="0"/>
 								<choice hidden="true"> 
 									<text>Continue...</text>
 									<event/>
@@ -314,7 +314,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_1">
 					<event>
-							<text>The enemy weapon system is disrupted and they lose some system power.</text>
+												<text>The enemy weapon system is disrupted and they lose some system power.</text>
 						<status type="loss" target="enemy" system="weapons" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -326,7 +326,7 @@
 						</choice>
 					</event>
 					<event>
-							<text>The enemy firewalls proved to be too advanced for your hacking device.</text>
+												<text>The enemy firewalls proved to be too advanced for your hacking device.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
@@ -340,7 +340,7 @@
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2">
 					<event>
-							<text>The enemy weapon system is disrupted and they lose some system power.</text>
+												<text>The enemy weapon system is disrupted and they lose some system power.</text>
 						<status type="loss" target="enemy" system="weapons" amount="1"/>
 						<choice hidden="true"> 
 							<text>Continue...</text>
@@ -348,7 +348,7 @@
 						</choice>
 					</event>
 					<event>
-							<text>The enemy firewalls proevd to be too advanced for your hacking device.</text>
+												<text>The enemy firewalls proved to be too advanced for your hacking device.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text>
 							<event/>
@@ -482,7 +482,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The jammer proves quite effective against this opponent. Some of it's weapons can't be targeted manually and have to be left deactivated.</text>
+		<text>The jammer proves quite effective against this opponent. Some of their weapons can't be targeted manually and have to be left deactivated.</text>
 		<status type="loss" target="enemy" system="weapons" amount="3"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -494,7 +494,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The enemy targeting-radar is jammed and some of it's guns power down automatically.</text>
+		<text>The enemy targeting radar is jammed and some of the enemy's guns power down automatically.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
@@ -684,7 +684,7 @@
 		</choice>
 	</event>
 </eventList>
-
+ 
 <!-- @kartoFlane - finished checking here -->
 
 <eventList name="CE_PRE_FIGHT_NO_EFFECTOR">
