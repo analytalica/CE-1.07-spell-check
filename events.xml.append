@@ -684,8 +684,6 @@
 		</choice>
 	</event>
 </eventList>
- 
-<!-- @kartoFlane - finished checking here -->
 
 <eventList name="CE_PRE_FIGHT_NO_EFFECTOR">
 	<event>
@@ -726,7 +724,7 @@
 
 <eventList name="CE_WEAPON_JAMMING_RESULTS_2">
 	<event>
-		<text>The enemy weapon targeting system must be quite outdated: Your jammer proves extremely effective.</text>
+		<text>The enemy weapon targeting system must be quite outdated; your jammer proves extremely effective.</text>
 		<status type="divide" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
@@ -734,66 +732,66 @@
 		<status type="loss" target="enemy" system="weapons" amount="3"/>
 	</event>
 	<event>
-		<text>The enemy targeting-radar is jammed and some of it's guns power down automatically.</text>
+		<text>The enemy targeting radar is jammed and some of its guns power down automatically.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/> 
 	</event>
 	<event>
-		<text>Your jammer does his thing and the enemy weapons are partially scrambled.</text>
+		<text>Your jammer does its thing and the enemy weapons are partially scrambled.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
-		<text>Your opponent surely didnt expect this. His weapon targeting fails, making some of his advanced armaments useless.</text>
+		<text>Your opponent surely didn't expect this. His weapon targeting fails, making some of his advanced armaments useless.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
-		<text>The jammer succeeds in jamming parts of the enemies arsenal.</text>
+		<text>The jammer succeeds in jamming parts of the enemy's arsenal.</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. Good effect on target."</text>
+		<text>Your crew reports: "Jammers active, sir. Good effect on target."</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Jammers active sir. But the enemy seems to be equipped with very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
+		<text>Your crew reports: "Jammers are active, sir, but the enemy seems to be equipped with a very advanced targeting systems. They still have a lock on us with their full weapon array." This didn't work out.</text>
 	</event>
 	<event>
-		<text>Your jamming augments seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with full fire from his weapon array.</text>
+		<text>Your jamming augments seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with full fire from their weapon array.</text>
 	</event>
 	<event>
-		<text>The enemy radar should show nothing but static, but it seems you are still targeted with a full weapon cluster. The jammer proved just proved ineffective.</text>
+		<text>The enemy radar should show nothing but static, but it seems you are still targeted with a full weapon cluster. The jammer proved ineffective.</text>
 	</event>
 </eventList>
 
 <eventList name="CE_DRONE_JAMMING_RESULTS_2">
 	<event>
-		<text>The enemy drones status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
+		<text>The enemy drones' status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
+		<text>Your crew reports: "Drone uplink disrupted, captain."</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communication between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The enemy drones status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
+		<text>The enemy drones' status lights flicker and turn off as their connection to the drone control is severed. One less problem to deal with.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>Your crew reports: "Drone uplink disrupted captain."</text>
+		<text>Your crew reports: "Drone uplink disrupted, captain."</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The communication between the enemy ship and it's drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communication between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>Your crew tries to scramble all channels, but the enemy uses rotating frequencies and remains in control of it's drones.</text>
+		<text>Your crew tries to scramble all channels, but the enemy uses variable frequencies and remains in control of their drones.</text>
 	</event>
 	<event>
-		<text>The enemy ship must use advanced channel encryption. The jammer fails to identify the enemy drone frequencies and can not disrupt the uplink.</text>
+		<text>The enemy ship must be using advanced channel encryption. The jammer fails to identify the enemy drone frequencies and can not disrupt the uplink.</text>
 	</event>
 </eventList>
 
@@ -1323,7 +1321,7 @@
 	</event>
 </eventList>
 
-
+<!-- @kartoFlane -->
 
 <event name="ASTEROID_EXPLORE" unique="true">
 	<text>Scans reveal a large asteroid field nearby. Short-range scanners may discover useful materials while we wait for the FTL to recharge.</text>
