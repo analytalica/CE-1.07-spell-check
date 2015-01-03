@@ -2132,7 +2132,7 @@
 	<text>A small Rebel station orbits a nearby moon. You try to lay low but it spots you. The send threat level six surrender opting protocols and target your ship.</text>
 	<text>A Rebel station is guarding this region. As soon as you arrive they message you: "This is the first and only warning: Surrender your ship to us or we will open fire with our full weapon array."</text>
 	<text>A near by Rebel station puts a high ranking officer on the com: "Our weapon range is nearly double the jump circle of this beacon. We also outgun you. Be reasonable, you cannot prevail in a fight. Give up, it's over for you."</text>
-	<text>You receive a transmission: "Sir, you know we cannot let you go. We suggest you surrender to avoid any further unnecessary violence" The stations weapons targeting you, but don't fire yet.</text>
+	<text>You receive a transmission: "Sir, you know we cannot let you go. We suggest you surrender to avoid any further unnecessary violence" The station's weapons targeting you, but don't fire yet.</text>
 	<text>A well armed Rebel station obstructs the view on the beacon, it's too late to avoid a fight. They suggest that you surrender.</text>
 	<text planet="PLANET_POPULATED">A Rebel station orbits the nearby planet. An officer is put on the comes: "I was just informed who you are. I can only assume you came here to turn yourself in, right?" The station increases weapon readiness, but isn't firing yet.</text>
 </textList>
@@ -2339,7 +2339,7 @@
 	<choice hidden="true">
 		<text>"Continue..."</text>
 		<event>
-			<text>You remain tense and ready to power the weapons at seconds notice, but no one bothers you as the stations drones install a weapon from the Rebels arsenal on your ship. You leave the station immediately and charge the FTL.</text>
+			<text>You remain tense and ready to power the weapons at seconds notice, but no one bothers you as the station's drones install a weapon from the Rebels arsenal on your ship. You leave the station immediately and charge the FTL.</text>
 			<autoReward level="HIGH">weapon</autoReward>
 		</event>
 	</choice>

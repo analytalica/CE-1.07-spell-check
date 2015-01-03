@@ -257,7 +257,7 @@
 	<text>Either this part of Slug space is deserted, or it's too dense for even Slugs to detect your presence. Time to move.</text>
 	<text>This area of the nebula seems entirely empty until a small Slug transport and its escorts emerges suddenly from through the clouds, only to disappear again in a matter of seconds.</text>
 	<text>You explore around the beacon and are shocked when a rock the size of a small moon suddenly looms ahead of you. Scans reveal the solid-looking rock is just a husk, almost entirely mined out of useful minerals.</text>
-	<text>There are a number of small stations for travellers in the area, lit up by guiding lights and advertisements. Only Slug ships are docked so you decide it's better to avoid a confrontation and steer clear.</text>
+	<text>There are a number of small stations for travellers in the area, lit up by guiding lights and advertisements. Only Slug ships are docked, so you decide it's better to avoid a confrontation and steer clear.</text>
 </textList>
 
 <event name="SLUG_FIGHT" unique="true">
@@ -3328,7 +3328,7 @@
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>Your ship computer registers a cyber attack directed at the weapon targeting systems. The stations weapon clusters locks on your ship!</text>
+				<text>Your ship computer registers a cyber attack directed at the weapon targeting systems. The station's weapon clusters locks on your ship!</text>
 				<status type="divide" target="player" system="weapons" amount="2"/>
 				<ship load="BS_JELLY_STATUS_WEAPONS" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3386,7 +3386,7 @@
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
 			<text>(Effector) Use the effector to counter their hacking attempts.</text> 
 			<event>
-				<text>Your effector manages to eliminate the stations override routines that have been introduced into your systems. Time to mob them up!</text>
+				<text>Your effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
 				<ship load="BS_SLUG" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -3446,7 +3446,7 @@
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>Warning lights flicker all over your ship airlocks as your door systems are sabotaged by the stations hacking modules.</text>
+				<text>Warning lights flicker all over your ship airlocks as your door systems are sabotaged by the station's hacking modules.</text>
 				<status type="divide" target="player" system="oxygen" amount="2"/>
 				<status type="limit" target="player" system="doors" amount="0"/>
 				<ship load="BS_JELLY_STATUS_OXIGEN_DOORS" hostile="true"/>

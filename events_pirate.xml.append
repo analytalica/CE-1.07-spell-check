@@ -1432,11 +1432,11 @@
 </event>
 <textList name="BS_EVENT_PIRATE_TEXT">
 	<text>As you jump into the system a you find yourself right in front of a small pirate station. They are refusing all hails. Prepare for a fight.</text>
-	<text>Immediatly after arriving in the system you are hailed by a station. "We know who you are and what you carry. You will have to get past us if you want to jump from this becon. Except you wont."</text>
-	<text>This beacon lies in close proximity to a considerably well armed pirate station. You will have to stay in their weapon range if you want to charg your FRL drive... According to the confused, apprently drug influenced com chatter you recieve the pirates seem quite amused by that.</text>
-	<text>A station at this beacon messages you: "Greatings assholes. We are almost out of food and fuel here. We might have more if we would trade instead of destroying every ship that comes here. But that wouldnt be so exiting, right?"</text>
+	<text>Immediately after arriving in the system you are hailed by a station. "We know who you are and what you carry. You will have to get past us if you want to jump from this beacon. Except you wont."</text>
+	<text>This beacon lies in close proximity to a considerably well armed pirate station. You will have to stay in their weapon range if you want to charg your FRL drive... According to the confused, apparently drug influenced com chatter you receive the pirates seem quite amused by that.</text>
+	<text>A station at this beacon messages you: "Greetings assholes. We are almost out of food and fuel here. We might have more if we would trade instead of destroying every ship that comes here. But that wouldn't be so exiting, right?"</text>
 	<text>You barely have time to register jump completion before your ship warns you of the station with weapons locked that floats right in front of your nose.</text>
-	<text>You recieve hail from a small stations: "Thank god you are here. The last weeks where so boring. Come on, power your weapons. Lets do this!"</text>
+	<text>You receive a hail from a small station: "Thank god you're here. The last weeks where so boring. Come on, power your weapons. Lets do this!"</text>
 </textList>
 
 <event name="BS_EVENT_PIRATE_CHOICE" unique="false">
@@ -1513,7 +1513,7 @@
 	<text>Upon completing your jump, you receive a message from a station on you starbord side. "Greetings and welcome to our pleasure dome! We can't find you on the list of our usual costomers. For a small registration fee, we'll let you continue on your way."</text>
 	<text>As you jump into the system you find yourself right in front of a small pirate station. They are refusing all hails, but constantly transmit a scrap transfer protocoll and also locked weapons. The message is pretty clear.</text>
 	<text>Immediatly after arriving in the system you are hailed by a station. "Pirate hold-up, tranfer-scrap-or-get-evaporated, you know the drill. Lets get this over with."</text>
-	<text>You recieve hail from a small stations: "Turn off your engines, this is a hold-up! Lets keep it nice and clean, no one has to get hurt here."</text>
+	<text>You recieve hail from a small station: "Turn off your engines, this is a hold-up! Lets keep it nice and clean, no one has to get hurt here."</text>
 </textList>
 
 

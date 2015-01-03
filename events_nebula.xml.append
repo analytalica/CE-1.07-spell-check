@@ -1407,7 +1407,7 @@
 			<choice>
 				<text>Recruit one of the less dodgy individuals for your ships crew.</text>
 				<event>
-					<text>The stations cantina is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy an you come to an agreement.</text>
+					<text>The station's cantina is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy an you come to an agreement.</text>
 					<item_modify>
 						<item type="scrap" min="-60" max="-35"/>
 					</item_modify>
@@ -1415,7 +1415,7 @@
 				</event>
 			</choice>
 			<choice>
-				<text>Pay the stations chief to distract your Rebel-pursuers.</text>
+				<text>Pay the station's chief to distract your Rebel-pursuers.</text>
 				<event>
 					<text>The station sends out a couple of jump capable drones configured to imitate your FTL signature. That should confuse the Rebel-Fleet.</text>
 					<item_modify>
@@ -1492,7 +1492,7 @@
 				</event>
 			</choice>
 			<choice>
-				<text>You have no need of the stations services.</text>
+				<text>You have no need of the station's services.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3089,7 +3089,7 @@ IDEAS
 
 <event name="BS_EVENT_PIRATE_SUICIDE_ASTEROID">
 	<environment type="asteroid"/>
-	<text>A pirate stations has drifted from who knows where into the asteroid field. They are still combat ready and aggressive.</text>
+	<text>A pirate station has drifted from who knows where into the asteroid field. They are still combat ready and aggressive.</text>
 	<ship load="BS_PIRATE_SUICIDE" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="0"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4393,7 +4393,7 @@ IDEAS
 <!-- SELLING -->
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
 			<!-- best deal-->
-			<text>The malnourished stations chief approaches you: "Eh... we ain't getting much trafic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
+			<text>The station's malnourished chief approaches you: "Eh... we ain't getting much traffic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_HAZARD_SELL_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -4404,7 +4404,7 @@ IDEAS
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
 			<!-- best deal -->
-			<text>Some researchers desperately try to keep the beacon network running. They offer a good price for spare parts. [Sell Beacon Parts for about 90 Scrap]</text>
+			<text>Some researchers are desperately trying to keep the beacon network running. They offer a good price for spare parts. [Sell Beacon Parts for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_HAZARD_SELL_TEXT"/>
 				<modifyPursuit amount="1"/>

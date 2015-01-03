@@ -7357,7 +7357,7 @@
 </event>
 <textList name="BS_EVENT_FED_AUTO_TEXT">
 	<text>The station you detect upon arriving at this beacon was apparently targeted by an advanced cyber-attack. The crew is dead and the now autonomous operating weapon systems target you.</text>
-	<text>After arriving at the beacon you are hailed by an otherwise completely dark station. "Greetings. I am Federation AI core Krzbrg-22/71. My new master, the unavailable Rebel fleet, told me to suffocate my crew and engage any hostiles that arrive at this beacon. Starting up systems." The stations weapons go live!</text>
+	<text>After arriving at the beacon you are hailed by an otherwise completely dark station. "Greetings. I am Federation AI core Krzbrg-22/71. My new master, the unavailable Rebel fleet, told me to suffocate my crew and engage any hostiles that arrive at this beacon. Starting up systems." The station's weapons go live!</text>
 	<text>You spot a small Federation station close by the beacon. It's lights are flickering and upon getting closer you realize that all it's airlocks have been opened. Dead crewmen float in space. As its weapon systems activate all by themselves you become sure: The station has been hacked and taken over by Rebel AI routines.</text>
 	<text>You get an automated message from a station right next to the beacon: "Greetings citizen/traveller/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station immediately ceases communication upon identifying your ship. You detect no crew on-board, apparently it has been taken over by a rebel hacker-AI.</text>
 </textList>
@@ -7375,7 +7375,7 @@
 	<choice hidden="true" req="DRONES_BOARDER">
 		<text>(Boarding Drone) Launch a boarding drone to probe the station.</text>
 		<event>
-			<text>You launch the drone carefully into an already vented part of station. The cam feed shows heavy damage to the stations as the drone slowly rolls through the corridors. It manages to activates the stations backup systems and enables you to dock.</text>
+			<text>You launch the drone carefully into an already vented part of station. The cam feed shows heavy damage to the stations as the drone slowly rolls through the corridors. It manages to activates the station's backup systems and enables you to dock.</text>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
@@ -7481,7 +7481,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You dock the station without problems. Unfortunately its bulkheads are welded shut. Then the stations teleporters suddenly activated and you receive an distorted audio message: "This is Rebel marine squad Zeta-12. We have identified you. Resistance is futile."</text>
+		<text>You dock the station without problems. Unfortunately its bulkheads are welded shut. Then the station's teleporters suddenly activated and you receive an distorted audio message: "This is Rebel marine squad Zeta-12. We have identified you. Resistance is futile."</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) Don't let them teleport on board!</text>
 		<event>
@@ -7532,7 +7532,7 @@
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>The station seems to have been picked clean and its weapon system has been manually locked down. As you activate the stations AI core you realist it is inhabited by a Rebel hacking routine as well. The Rebel AI seems to be in control of the stations communication unit and sends off a burst message. The Rebels must surely be aware of your position now!</text>
+		<text>The station seems to have been picked clean and its weapon system has been manually locked down. As you activate the station's AI core you realist it is inhabited by a Rebel hacking routine as well. The Rebel AI seems to be in control of the station's communication unit and sends off a burst message. The Rebels must surely be aware of your position now!</text>
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
@@ -7557,7 +7557,7 @@
 			<choice>
 				<text>Recruit one of the less dodgy individuals for your ships crew.</text>
 				<event>
-					<text>The stations canteen is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy and you come to an agreement.</text>
+					<text>The station's canteen is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy and you come to an agreement.</text>
 					<item_modify>
 						<item type="scrap" min="-60" max="-35"/>
 					</item_modify>
@@ -7642,7 +7642,7 @@
 				</event>
 			</choice>
 			<choice>
-				<text>You have no need of the stations services.</text>
+				<text>You have no need of the station's services.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7713,7 +7713,7 @@
 			<choice>
 				<text>Recruit one of the less dodgy individuals for your ships crew.</text>
 				<event>
-					<text>The stations canteen is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy and you come to an agreement.</text>
+					<text>The station's canteen is frequented by a few smugglers and alien mercenaries. The bartender points you to someone he deems trustworthy and you come to an agreement.</text>
 					<item_modify>
 						<item type="scrap" min="-60" max="-35"/>
 					</item_modify>
@@ -7798,7 +7798,7 @@
 				</event>
 			</choice>
 			<choice>
-				<text>You have no need of the stations services.</text>
+				<text>You have no need of the station's services.</text>
 				<event/>
 			</choice>
 		</event>
@@ -8504,7 +8504,7 @@
 <textList name="BS_ENGI_ESCAPE_TEXT">
 	<text>The Engi on board the station still seem to have some sense of self-preservation. They start to charge a small FTL core to escape the engagement.</text>
 	<text>Your scanners register impressive energy spikes. The station seems to be equipped with an improvised FTL core. Are these mad beings trying to jump away with an entire station?</text>
-	<text>You suddenly receive a hail: "This engagement: illogical. New goal: escape." The stations seems to have rudimentary engine components and it looks like the mad crew will try to jump away with the whole thing.</text>
+	<text>You suddenly receive a hail: "This engagement: illogical. New goal: escape." The station seems to have rudimentary engine components and it looks like the mad crew will try to jump away with the whole thing.</text>
 </textList>
 
 <event name="BS_AUTO_SURRENDER">
@@ -8659,8 +8659,8 @@
 </event>
 <textList name="BS_ROCK_OUTPOST_SURRENDER_TEXT">
 	<text>The Rock station hails: "Cease your attack Aliens. We shall offer you some of our supplies. Then leave us be."</text>
-	<text>The enemies structural integrity starts failing and the station makes contact: "We will pay. Just leave our habitat intact."</text>
-	<text>The Rock stations begins to periodically transmits white flag signals. They seem willing to buy themselves out of this.</text>
+	<text>The enemy's structural integrity starts failing and the station makes contact: "We will pay. Just leave our habitat intact."</text>
+	<text>The Rock station begins to periodically transmits white flag signals. They seem willing to buy themselves out of this.</text>
 </textList>
 
 <event name="BS_SLUG_SURRENDER">
@@ -8676,16 +8676,16 @@
 </event>
 <textList name="BS_SLUG_SURRENDER_TEXT">
 	<text>The Slug station hails: "Pleasse don't destroy uss. We shall pay you fine goods!"</text>
-	<text>The Slug stations gelatine hull can't keep up with closing the big holes your weapons keep punching into it. They make contact: "Sspare uss, mighty invader. We shall give you access to some supplies..."</text>
+	<text>The Slug station's gelatine hull can't keep up with closing the big holes your weapons keep punching into it. They make contact: "Sspare uss, mighty invader. We shall give you access to some supplies..."</text>
 	<text>Slug gel is splattered in all directions as your weapons keep pounding the station. The crew seems to start worrying about their home. They offer vaguely defined goods in exchange for a cease-fire.</text>
 </textList>
 
 <eventList name="BS_STATION_DESTROYED_DEFAULT">
 	<event>
-		<text>The station slowly breaks apart, leaving massive chunks of debris and scrap material. You collect what you can but the wreckage is so big that more time would be necessary to gather all the usable parts. You run a quick debris-drift analysis to see what you could gather.</text>
+		<text>The station slowly breaks apart, leaving massive chunks of debris and scrap material. You collect what you can, but the wreckage is so big that it would take more time to gather all the usable parts. You run a quick debris-drift analysis to see what you could gather.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice>
-			<text>Spend more time to collect the additional materials.</text>
+			<text>Spend more time collecting additional materials.</text>
 			<event>
 				<text>You slowly circle around the beacon several times and have your crew keep track of all the drifting parts that seem valuable. The stuff you collect isn't bad, but you lost a lot of time and your Rebel pursuers will be catching up with you sooner now."</text>
 				<modifyPursuit amount="1"/>
@@ -8698,7 +8698,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The stations generator core detonates, tearing the structure apart. You gather what you can from the wave of scrap that is send flying fast in all directions.</text>
+		<text>The station's generator core detonates, tearing the structure apart. You gather what you can from the wave of scrap that is send flying fast in all directions.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
@@ -12874,7 +12874,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(Minelauncher) Mine the perimeter. [ Missiles: -3 ]</text>
 		<event>
-			<text>The pirates will be in for a nasty surprise if they return. You receive a generous reward, although the stations crew laments that such measures are necessary these days.</text>
+			<text>The pirates will be in for a nasty surprise if they return. You receive a generous reward, although the station's crew laments that such measures are necessary these days.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -13438,7 +13438,7 @@
 </eventList>
 
 <event name="CE_DISTRESS_DRONES" unique="true">
-	<text>The distress signal is coming from a heavily guarded mining platform. An unhappy employee has sabotaged the drone control. Industrial beam drones run amok and attack the installation. The stations shields hold, but the mining company can't manage to regain control of their drones.</text>
+	<text>The distress signal is coming from a heavily guarded mining platform. An unhappy employee has sabotaged the drone control. Industrial beam drones run amok and attack the installation. The station's shields hold, but the mining company can't manage to regain control of their drones.</text>
 	<distressBeacon/>
 	<choice hidden="true">
 		<text>Try to pick off the drones with your weapons.</text>
@@ -13512,7 +13512,7 @@
 		<text>You spend a lot of time and energy firing on drones from all angles. They are designed to be difficult to hit, so it's no wonder that you don't succeed. You give up quite annoyed.</text>
 	</event>
 	<event>
-		<text>You start firing full barges against the drones that zip around the station. A few shots hit the stations shields, which allows the drones to cut away a few antennas. You are hailed: "We appreciate the effort, but we think this is enough." You notice that their defense satellites came online. Time to leave?</text>
+		<text>You start firing full barges against the drones that zip around the station. A few shots hit the station's shields, which allows the drones to cut away a few antennas. You are hailed: "We appreciate the effort, but we think this is enough." You notice that their defense satellites came online. Time to leave?</text>
 	</event>
 </eventList>
 <eventList name="CE_DISTRESS_DRONES_DETONATE">
@@ -15125,7 +15125,7 @@ IDEAS
 	<text planet="PLANET_POPULATED">A trade depot orbits the nearby planet. Multiple merchant ships are docked. Looks like you can strike a bargain here. The seem to trade only in bulk goods and are not interested in buying.</text>
 	<text planet="PLANET_POPULATED">A space mall sells trade goods to ships coming and going from this settlement.</text>
 <text>You spot a civilian trade depot nearby. Passive scans indicate they are storing locally produced goods. They notice your interest and offer a sell. The don't sell ship equipment though...</text>
-	<text>An unprotected trade depot lingers nearby. They reluctantly offer to sell some of their goods. The stations chief seems nervous because of all the firepower your brought here.</text>
+	<text>An unprotected trade depot lingers nearby. They reluctantly offer to sell some of their goods. The station's chief seems nervous because of all the firepower your brought here.</text>
 	<text>A civilian trade depot hails: "Federation? Well we don't care, not many militias or Rebels come around here. Just keep your big guns holstered, alright?" They offer to sell some goods.</text>
 	<text>A trade depot is storing and trading goods here. They great you: "OK... we detect a lot of weaponry on your ship. Do we have to call in the militia or do you just want to politely buy some stuff?" They seem to feel threatened.</text>
 </textList>
@@ -15429,7 +15429,7 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>You strip the ship of useful materials. Your crew follows their orders. The salvage team report on some cargo in the stations holds.</text>
+		<text>You strip the ship of useful materials. Your crew follows their orders. The salvage team report on some cargo in the station's holds.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
