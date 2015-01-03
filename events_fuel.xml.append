@@ -20,7 +20,7 @@
 	<choice req="AE_FUEL_RECYCLE" hidden="true"> 
 		<text>(FTL Fuel Recycler) Recycle some FTL fuel cells.</text>
 		<event>
-			<text>You ran out of fuel, but you can always try to squeze some more out of the capsules with your recylcer device.</text>
+			<text>You ran out of fuel, but you can always try to squeeze some more out of the capsules with your recylcer device.</text>
 			<item_modify>
 				<item type="fuel" min="2" max="4"/>
 			</item_modify>
@@ -586,7 +586,7 @@
 </eventList>
 <eventList name="FUEL_APPROACH_SCAN_LIST">
 	<event>
-		<text>Sensors indicate their ship is without military-grade weaponry, even small arms.  You allow them to dock and they give you some fuel saying, "I remember a time when we didn't have to be so paranoid about each others intentions... Stay safe."</text>
+		<text>Sensors indicate their ship is without military-grade weaponry, or even small arms.  You allow them to dock and they give you some fuel saying, "I remember a time when we didn't have to be so paranoid about each others' intentions... Stay safe."</text>
 		<item_modify>
 			<item type="fuel" min="3" max="7"/>
 		</item_modify>

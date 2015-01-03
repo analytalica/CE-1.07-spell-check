@@ -21,7 +21,7 @@ Act responsible and observe this rules, else this effort to spell check CE will 
 
 2. Only spell check things within text tags. Everything else might mess up the mod structure.
 
-3. If you rephrase things, do not exeed the number of characters the text originally had, 
+3. If you rephrase things, do not exceed the number of characters the text originally had, 
 specially when the text was already pretty long. Too long texts can cause the game to crash on text load.
 
 4. Don't add intent or any kinds of breaks in the text. FTL event texts need to be pure flowtext to work correctly.
